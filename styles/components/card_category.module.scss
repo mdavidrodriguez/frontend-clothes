@@ -1,0 +1,16 @@
+.content {
+    position: relative;
+    border-radius: 6px;
+    cursor: pointer;
+    .image {
+        border-radius: 6px;
+        z-index: 0;
+    }
+    .textoCategoria {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        z-index: 1;
+        color: white;
+    }
+}
